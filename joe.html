@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOE</title>
+    <link rel = "icon" href = "joe-1700637374.jpg">
+    <style>
+        body{
+            background-color: plum;
+        }
+       
+        h1{
+            border-color: black;
+            border-width: 5px;
+            border-style: double;
+            display: block;
+            text-align: center;
+            color :black;
+            backdrop-filter: blur(20px);
+        }
+        .para{
+           margin : 10px;
+           padding : 10px;
+           text-align: center;
+           font-size: 20px;
+           font-family: 'Courier New', Courier, monospace;
+           color:black;
+           display :flex;
+
+        }
+        .image{
+            margin-left:450px;
+            width :500px;
+            height :500px;
+            transition:1s;
+        }
+        .image:hover{
+            transform:scale(1.3);
+            z-index: 2;
+        }
+        .container{
+            border-color: black;
+            border-width: 5px;
+            border-style: solid;
+            display : block;
+            backdrop-filter: blur(10px);
+            font-size: 20px;
+           color: black;
+           text-align : center;
+           margin-top: 20px;
+           box-shadow: 30px 20px 10px black;
+          
+        }
+        .box{
+            border-color: black;
+            border-width: 5px;
+            border-style: solid;
+            display :  inline-block;
+            text-align : left;
+            margin-left: 425px;
+            font-size: 20px;
+           font-family: 'Courier New', Courier, monospace;
+           backdrop-filter: blur(10px);
+           box-shadow: 30px 20px 10px black;
+
+        }
+        button{
+            font-size: 25px;
+            margin-top: 25px;
+            padding:10px;
+        }
+        .rating {
+         margin-left: 625px;
+         filter: drop-shadow(30px 20px 10px black);
+          
+}
+.rating input {
+    display: none; 
+}
+
+.rating label:after {
+    content: '\2605';
+    font-size: 50px;
+}
+
+.rating input:checked~label,
+.rating label:hover,
+.rating label:hover~label {
+    color: gold;
+    transition: color 0.3s;
+}
+    </style>
+</head>
+<body>
+    <div class ="tamil1">
+    <h1>JOE</h1>
+    
+    <img src ="1647912-h-4635b7060678.webp" alt = "image not found" width="250px" height=" 250px" class ="image">
+    <pre class = "para" ><b>  Joe is a 2023 Indian Tamil-language romantic drama. The film written and directed by Hariharan Ram S.in his directorial  
+                and produced by Dr. D. Arulanandhu and Mathewo Arulanandhu under the banner of Vision Cinema House.
+                         The film stars Rio Raj, Malavika Manoj and Bhavya Trikha in the lead roles. 
+                         The film was released theatrically on 24 November 2023.</b> </pre>
+
+
+    
+
+    </div>
+    <div class = "box">
+        <pre>
+            <b>
+            Album         : Joe
+            Directed by   : Hariharan Ram.S
+            Produced by   : Dr.D.Arulanandhu & Mathewo Arulanandhu
+            Actors        : Rio Raj, Malavika Manoj,Bhavya Trikha
+            Music Director: Siddhu Kumar
+            Language      : Tamil
+            Album Year    : 2023
+            Release Date  : 24 November 2023
+            Audio Formats : MP3 (320Kbps)
+            </b>
+        </pre>
+    </div>
+    <div class ="container">
+        <p><b><u>CULTURALS SONG</u></b></p>
+        <p><b>Singers: Siddhu Kumar<br>
+           Duration: 2:26 min (6.14 MB)</b></p>
+        <audio controls> 
+            <source src = "Culturals Song (1).mp3">
+        </audio>
+        <br>
+         <p><b><u>DIMMU DIPPU</u></b></p>
+         <p><b>Singers: Siddhu Kumar<br>
+               Duration: 2:02 min (5.23 MB)</b></p>
+         <audio controls> 
+            <source src = "Dimmu Dippu.mp3">
+        </audio>
+        <br>
+         <p><b><u>ORE KANAA</u></b></p>
+         <p><b>Singers: Siddhu Kumar<br>
+               Duration: 3:15 min (8.01 MB)</b></p>
+         <audio controls> 
+            <source src = "Ore Kanaa.mp3">
+        </audio>
+        <br>
+         <p><b><u>URUGI URUGI</u></b></p>
+         <p><b>Singers: Anand Aravindakshan<br>
+            Duration: 3:43 min (9.05 MB)</b></p>
+         <audio controls> 
+            <source src = "Urugi Urugi.mp3">
+        </audio>
+        <br>
+         <p><b><u>KOVAI KULIRA</u></b></p>
+         <p><b>Singers: Siddhu Kumar<br>
+               Duration: 1:41 min (4.39 MB)</b></p>
+         <audio controls> 
+            <source src = "Kovai Kulira.mp3">
+        </audio>
+
+
+
+    </div>
+    <div class = "rating">
+        <input value = "5" name = "rating" id = " stars5" type = "radio">
+        <label for ="star5"></label>
+        <input value = "4" name = "rating" id = " stars4" type = "radio">
+        <label for ="star4"></label>
+        <input value = "3" name = "rating" id = " stars3" type = "radio">
+        <label for ="star3"></label>
+        <input value = "2" name = "rating" id = " stars2" type = "radio">
+        <label for ="star2"></label>
+        <input value = "1" name = "rating" id = " stars1" type = "radio">
+        <label for ="star1"></label>
+    </div>
+     <center>
+     <button  ><a href= "welcome.html">RETURN BACK</a></button>
+     </center>
+     
+</body>
+</html>
